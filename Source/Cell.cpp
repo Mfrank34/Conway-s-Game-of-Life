@@ -2,10 +2,11 @@
 #include <iostream>
 
 Cell::Cell() {
-    
-}
+    // constructor
+} 
 
-void Cell::example()
-{
-    
+void Cell::example() {}
+
+Cell::~Cell() {
+     // deconstructor
 }
