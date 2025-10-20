@@ -6,11 +6,12 @@
             "label": "C/C++: g++ build all files",
             "command": "/usr/bin/g++",
             "args": [
+                "-std=c++20",
                 "-fdiagnostics-color=always",
                 "-g",
                 "-I${workspaceFolder}/Header",
                 "${workspaceFolder}/Main.cpp",
-                "${workspaceFolder}/Source/Cell.cpp",
+                "${workspaceFolder}/Source/*.cpp",
                 "-o",
                 "${workspaceFolder}/Bin/Main"
             ],
