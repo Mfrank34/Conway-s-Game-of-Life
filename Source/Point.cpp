@@ -1,8 +1,6 @@
 #include <Point.h>
-#include <iostream>
 #include <format>
 #include <vector>
-// #include <hash_map>
 
 Point::Point(int x, int y)
 {
