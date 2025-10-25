@@ -19,13 +19,13 @@ Chunk::Chunk(int chunk_x, int chunk_y) : chunk_x(chunk_x), chunk_y(chunk_y)
 // returns reference to modifiable cell
 Cell &Chunk::get_cell(int x, int y)
 {
-    return cells[y][x];
+    return cells[x][y];
 }
 
 // returns const reference (read only access)
 const Cell &Chunk::get_cell(int x, int y) const
 {
-    return cells[y][x];
+    return cells[x][y];
 }
 
 // chuck coordinates getters

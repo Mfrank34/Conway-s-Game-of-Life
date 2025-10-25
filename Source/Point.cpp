@@ -36,7 +36,8 @@ std::vector<Point> Point::neighbors()
         {x, y + 1},
         {x + 1, y - 1},
         {x + 1, y},
-        {x + 1, y + 1}};
+        {x + 1, y + 1}
+    };
     /*
     this finds the titles around the current point
     and helps to find where it can move to? if that makes sense?

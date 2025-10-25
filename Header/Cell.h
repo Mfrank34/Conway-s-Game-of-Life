@@ -20,7 +20,7 @@ public:
 
     void set_node(bool new_node);
 
-    void update_node_type();
+    void update_cell();
 
     ~Cell();
 };

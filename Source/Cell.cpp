@@ -6,7 +6,7 @@ Cell::Cell() {};
 
 Cell::Cell(char type) : type(type) 
 {
-    update_node_type();
+    update_cell();
 };
 
 char Cell::get_type()
@@ -25,7 +25,7 @@ void Cell::set_type(char new_type)
 {
     // setting the type of node
     this->type = new_type;
-    update_node_type();
+    update_cell();
 }
 
 void Cell::set_node(bool new_node)
@@ -34,7 +34,7 @@ void Cell::set_node(bool new_node)
     this->node = new_node;
 }
 
-void Cell::update_node_type()
+void Cell::update_cell()
 {
     switch (type)
     {

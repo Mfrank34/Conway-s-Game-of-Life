@@ -23,9 +23,9 @@ Cell& Map::get_cell(int global_x, int global_y)
     int chunk_x = global_x / Chunk::CHUNK_SIZE;
     int chunk_y = global_y / Chunk::CHUNK_SIZE;
 
-    // ensure negative coordinates floor correctly
-    if (global_x < 0) chunk_x--;
-    if (global_y < 0) chunk_y--;
+    // // ensure negative coordinates floor correctly
+    // if (global_x < 0) chunk_x--;
+    // if (global_y < 0) chunk_y--;
 
     // generating chunk
     Chunk& chunk = generate_chunk(chunk_x, chunk_y);
