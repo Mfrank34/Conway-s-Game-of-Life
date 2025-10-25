@@ -1,8 +1,6 @@
 #include "Chunk.h"
 #include "Cell.h"
 
-Chunk::Chunk() {};
-
 // creates class    | sets the cords for chunk
 Chunk::Chunk(int chunk_x, int chunk_y) : chunk_x(chunk_x), chunk_y(chunk_y)
 {

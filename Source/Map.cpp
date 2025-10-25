@@ -1,7 +1,5 @@
 #include "Map.h"
 
-Map::Map() {};
-
 long long Map::generate_key(int chunk_x, int chunk_y) const
 {
     // packs two 32 bit ints into one 64-bit key for the map

@@ -1,5 +1,5 @@
 #ifndef CHUNK_H
-#define CHUCK_H
+#define CHUNK_H
 
 #include "Cell.h"
 
@@ -7,7 +7,7 @@ class Chunk
 {
 public:
     static const int CHUNK_SIZE = 32;
-    
+
     // make class
     Chunk() {};
 

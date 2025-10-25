@@ -24,7 +24,8 @@ bool Cell::get_node()
 void Cell::set_type(char new_type)
 {
     // setting the type of node
-    this->type = type;
+    this->type = new_type;
+    update_node_type();
 }
 
 void Cell::set_node(bool new_node)
