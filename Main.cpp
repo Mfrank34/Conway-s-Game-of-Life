@@ -1,24 +1,16 @@
 #include <iostream>
 #include <vector>
+// custom class
 #include "Cell.h"
+#include "Chunk.h"
+#include "Map.h"
 #include "Point.h"
 
 int main()
 {
-    // creating a space for a game board
+    Chunk myChunk(2, 8);
 
-    Cell cell;
-
-    Point point(0,0);
-    Point point2(2, 1);
-
-    std::vector<Point> data = point.neighbors();
-
-    for (int i = 0; i < data.size(); i++)
-    {
-        std::cout << i <<". in hash code " << data[i].hash_code() << "\n";
-    }
-
-
-    return 0;
+    myChunk.get_cell(5,10).set_type('w');
+ 
+    std::cout <<"chunk is " << "\n";
 }
