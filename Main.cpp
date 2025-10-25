@@ -12,7 +12,7 @@ int main()
     Point point(0,0);
     Point point2(2, 1);
 
-    std::vector<Point> data = point.neighbours();
+    std::vector<Point> data = point.neighbors();
 
     for (int i = 0; i < data.size(); i++)
     {
