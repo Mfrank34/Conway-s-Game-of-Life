@@ -2,15 +2,18 @@
 #include <vector>
 
 // custom class
-#include "Cell.h"
+#include "Header/Cell.h"
 #include "Chunk.h"
 #include "Map.h"
 #include "Point.h"
+#include "App.h"
 
 /*
 NOTES: 
     - so far created a map system that can hold two types of data bool and char file type in 
-    class 
+        class from cell that holds a bool and char, and coors.
+    - next steps to create a system for viewing the map
+    - 
 */
 
 int main()
