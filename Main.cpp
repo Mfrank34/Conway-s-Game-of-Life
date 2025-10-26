@@ -2,11 +2,11 @@
 #include <vector>
 
 // custom class
-#include "Header/Cell.h"
+#include "Cell.h"
 #include "Chunk.h"
 #include "Map.h"
 #include "Point.h"
-#include "App.h"
+// #include "App.h"
 
 /*
 NOTES: 
@@ -31,4 +31,4 @@ int main()
               << world.get_cell(200, -50).get_type() << "\n";
 
     return 0;
-}
+};
